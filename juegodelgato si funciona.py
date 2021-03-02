@@ -63,6 +63,7 @@ def revisa():
 
 # Ciclo a ejecutarse mientras haya movimientos disponibles y no haya habido ningún ganador
 while movimientos()!=0 and revisa()==1:
+    print('segimiento')
     revisa()
     imprime()
     # Los turnos pares le corresponderán al jugador de las X y los impares al de las O
